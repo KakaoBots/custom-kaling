@@ -59,4 +59,3 @@ class ThumbnailItem extends Component_1.default {
     }
 }
 exports.default = ThumbnailItem;
-//# sourceMappingURL=ThumbnailItem.js.map
