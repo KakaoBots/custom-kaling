@@ -40,4 +40,3 @@ class Profile extends Component_1.default {
     }
 }
 exports.default = Profile;
-//# sourceMappingURL=Profile.js.map
