@@ -14,4 +14,3 @@ class ButtonList extends ComponentList_1.default {
     }
 }
 exports.default = ButtonList;
-//# sourceMappingURL=ButtonList.js.map
