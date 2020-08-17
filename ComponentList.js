@@ -8,4 +8,3 @@ class ComponentList extends Array {
     }
 }
 exports.default = ComponentList;
-//# sourceMappingURL=ComponentList.js.map
