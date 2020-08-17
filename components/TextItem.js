@@ -45,4 +45,3 @@ class TextItem extends Component_1.default {
     }
 }
 exports.default = TextItem;
-//# sourceMappingURL=TextItem.js.map
