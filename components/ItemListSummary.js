@@ -20,4 +20,3 @@ class ItemListSummary extends Component_1.default {
     }
 }
 exports.default = ItemListSummary;
-//# sourceMappingURL=ItemListSummary.js.map
