@@ -51,4 +51,3 @@ class Social extends Component_1.default {
     }
 }
 exports.default = Social;
-//# sourceMappingURL=Social.js.map
