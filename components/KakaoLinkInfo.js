@@ -15,4 +15,3 @@ class KakaoLinkInfo extends Component_1.default {
     }
 }
 exports.default = KakaoLinkInfo;
-//# sourceMappingURL=KakaoLinkInfo.js.map
