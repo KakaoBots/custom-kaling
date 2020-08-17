@@ -38,4 +38,3 @@ class Link extends Component_1.default {
     }
 }
 exports.default = Link;
-//# sourceMappingURL=Link.js.map
