@@ -14,4 +14,3 @@ class ThumbnailList extends ComponentList_1.default {
     }
 }
 exports.default = ThumbnailList;
-//# sourceMappingURL=ThumbnailList.js.map
