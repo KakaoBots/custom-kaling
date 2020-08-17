@@ -67,4 +67,3 @@ class Commerce extends Component_1.default {
     }
 }
 exports.default = Commerce;
-//# sourceMappingURL=Commerce.js.map
