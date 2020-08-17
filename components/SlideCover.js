@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Component_1 = require("../Component");
 const Link_1 = require("./Link");
-const ThumbnailItem_1 = require("./ThumbnailItem");
 const TitleDescription_1 = require("./TitleDescription");
 class SlideCover extends Component_1.default {
     constructor(title = '', description = '', link = new Link_1.default()) {
