@@ -39,8 +39,7 @@ class MessageTemplate extends Component_1.default {
         return this.toJson();
     }
     get RequiredMessageType() {
-        return 71;
+        return 71; // 커스텀 템플릿의 상수
     }
 }
 exports.default = MessageTemplate;
-//# sourceMappingURL=MessageTemplate.js.map
