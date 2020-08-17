@@ -121,4 +121,3 @@ class FeedContent extends Content_1.default {
     }
 }
 exports.default = FeedContent;
-//# sourceMappingURL=FeedContent.js.map
