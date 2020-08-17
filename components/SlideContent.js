@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Content_1 = require("./Content");
 const ContentList_1 = require("./ContentList");
-const SlideCorver_1 = require("./SlideCover");
 const MessageType = require("../models/MessageType").MessageType;
 class SlideContent extends Content_1.default {
     constructor(cardType = MessageType.FEED, ...items) {
