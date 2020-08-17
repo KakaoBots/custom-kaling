@@ -90,4 +90,3 @@ class MessageInfo extends Component_1.default {
     }
 }
 exports.default = MessageInfo;
-//# sourceMappingURL=MessageInfo.js.map

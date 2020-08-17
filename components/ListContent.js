@@ -56,4 +56,3 @@ class ListContent extends Content_1.default {
     }
 }
 exports.default = ListContent;
-//# sourceMappingURL=ListContent.js.map
