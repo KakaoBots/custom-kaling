@@ -51,13 +51,14 @@ const {MessageInfo, MessageType, SlideContent, SlideCover, FeedContent, Thumbnai
 const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com', '', '');
 Header.Message = 'TestTest'; 
 
-const Content = new SlideContent(MessageType.FEED, 
-		new FeedContent('Alice', 'HTML'), 
+const Content = new SlideContent(MessageType.FEED, //this can be FEED, LIST, COMMERCE
+		new FeedContent('Alice', 'HTML'),  //all contents MUST be same class
 		new FeedContent('Bob', 'CSS'),
 		new FeedContent('Carol', 'JS')
 );
 
-Content.ContentHead = new SlideCover('Slide-Cover', 'JS');
+//Cover is optional
+Content.ContentHead = new SlideCover('Slide-Cover', 'JS'); 
 Content.ContentHead.Background = new ThumbnailItem('https://github.com/fluidicon.png');
 
 const Message = new MessageTemplate(Header, Content);
