@@ -1,0 +1,22 @@
+{
+  "name": "custom-kaling",
+  "version": "1.0.0",
+  "description": "Builder for Kakaotalk custom attachment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KakaoBots/custom-kaling.git"
+  },
+  "keywords": [
+    "kakaotalk"
+  ],
+  "author": "KakaoBots",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KakaoBots/custom-kaling/issues"
+  },
+  "homepage": "https://github.com/KakaoBots/custom-kaling#readme"
+}
