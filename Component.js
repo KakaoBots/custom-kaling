@@ -4,4 +4,3 @@ class Component {
     constructor() { }
 }
 exports.default = Component;
-//# sourceMappingURL=Component.js.map
