@@ -27,4 +27,3 @@ class TitleDescription extends Component_1.default {
     }
 }
 exports.default = TitleDescription;
-//# sourceMappingURL=TitleDescription.js.map
