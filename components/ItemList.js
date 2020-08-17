@@ -14,4 +14,3 @@ class ItemList extends ComponentList_1.default {
     }
 }
 exports.default = ItemList;
-//# sourceMappingURL=ItemList.js.map

@@ -28,4 +28,3 @@ class ImageTitle extends Component_1.default {
     }
 }
 exports.default = ImageTitle;
-//# sourceMappingURL=ImageTitle.js.map

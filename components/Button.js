@@ -31,4 +31,3 @@ class Button extends Component_1.default {
     }
 }
 exports.default = Button;
-//# sourceMappingURL=Button.js.map

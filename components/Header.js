@@ -48,4 +48,3 @@ class Header extends Component_1.default {
     }
 }
 exports.default = Header;
-//# sourceMappingURL=Header.js.map

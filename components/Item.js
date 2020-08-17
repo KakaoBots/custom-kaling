@@ -20,4 +20,3 @@ class Item extends Component_1.default {
     }
 }
 exports.default = Item;
-//# sourceMappingURL=Item.js.map

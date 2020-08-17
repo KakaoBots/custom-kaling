@@ -40,4 +40,3 @@ class ArticleListItem extends Component_1.default {
     }
 }
 exports.default = ArticleListItem;
-//# sourceMappingURL=ArticleListItem.js.map

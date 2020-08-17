@@ -14,4 +14,3 @@ class ArticleList extends ComponentList_1.default {
     }
 }
 exports.default = ArticleList;
-//# sourceMappingURL=ArticleList.js.map
