@@ -89,4 +89,3 @@ class CommerceContent extends Content_1.default {
     }
 }
 exports.default = CommerceContent;
-//# sourceMappingURL=CommerceContent.js.map
