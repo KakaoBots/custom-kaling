@@ -41,4 +41,3 @@ class ProfileContent extends Content_1.default {
     }
 }
 exports.default = ProfileContent;
-//# sourceMappingURL=ProfileContent.js.map
