@@ -48,7 +48,7 @@ const Message = new MessageTemplate(Header, Content);
 ```jsx
 const {MessageInfo, MessageType, SlideContent, SlideCover, FeedContent, ThumbnailItem} = require("custom-kaling");
 
-const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com', '', '');
+const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com');
 Header.Message = 'TestTest'; 
 
 const Content = new SlideContent(MessageType.FEED, //this can be FEED, LIST, COMMERCE
