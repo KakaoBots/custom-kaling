@@ -17,4 +17,3 @@ var MessageType;
     MessageType["TALK_MUSIC"] = "Talkmusic";
     MessageType["UPDATE"] = "Update";
 })(MessageType = exports.MessageType || (exports.MessageType = {}));
-//# sourceMappingURL=MessageType.js.map

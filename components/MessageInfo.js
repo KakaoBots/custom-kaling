@@ -19,7 +19,7 @@ class MessageInfo extends Component_1.default {
         this.versionIphone = '6.4.5';
         this.versionWindows = '2.3.5';
         this.versionMac = '2.6.1';
-        this.serviceID = 'capri_331278'; // capri_ 뒤에는 appID값
+        this.serviceID = 'capri_432166'; // capri_ 뒤에는 appID값
         this.documentID = link.PC;
     }
     get Type() {

@@ -26,7 +26,7 @@ class SlideCover extends Component_1.default {
         this.background = query;
     }
     toJson() {
-        let obj = {
+        const obj = {
             TD: this.text.toJson(),
             L: this.link.toJson()
         };

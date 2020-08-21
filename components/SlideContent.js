@@ -38,7 +38,7 @@ class SlideContent extends Content_1.default {
         this.contentTail = query;
     }
     toJson() {
-        let obj = {
+        const obj = {
             CTP: this.cardType,
             CIL: this.contentList.toJson()
         };
