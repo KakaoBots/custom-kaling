@@ -1,6 +1,6 @@
 {
   "name": "custom-kaling",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Builder for Kakaotalk custom attachment",
   "main": "index.js",
   "scripts": {
