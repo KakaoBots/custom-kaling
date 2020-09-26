@@ -4,7 +4,7 @@
 
 this code is **heavily based on** [kakao-message-template](https://github.com/delta-kor/kakao-message-template) 
 
-**You need to change value of appID in components/KakaoLinkInfo.js**
+**You need to assign value of appID for KakaoLinkInfo**
 
 ## Installation
 
@@ -17,7 +17,8 @@ npm i custom-kaling
 ### Feed
 
 ```jsx
-const {MessageTemplate, MessageInfo, MessageType, FeedContent, Button} = require('custom-kaling');
+const {MessageTemplate, MessageInfo, MessageType, FeedContent, Button, KakaoLinkInfo} = require('custom-kaling');
+KakaoLinkInfo.appID = 'Your app ID';
 
 const Header = new MessageInfo(MessageType.FEED, 'http://example.com', 'App Name', 'http://example.com/icon.png');
 
@@ -31,7 +32,8 @@ const Message = new MessageTemplate(Header, Content);
 ### List
 
 ```jsx
-const {MessageTemplate, MessageInfo, MessageType, ListContent, ArticleListItem} = require('custom-kaling');
+const {MessageTemplate, MessageInfo, MessageType, ListContent, ArticleListItem, KakaoLinkInfo} = require('custom-kaling');
+KakaoLinkInfo.appID = 'Your app ID';
 
 const Header = new MessageInfo(MessageType.LIST, 'http://example.com', 'App Name', 'http://example.com/icon.png');
 
@@ -48,7 +50,8 @@ const Message = new MessageTemplate(Header, Content);
 ### Slide
 
 ```jsx
-const {MessageTemplate, MessageInfo, MessageType, SlideContent, SlideCover, FeedContent, ThumbnailItem} = require("custom-kaling");
+const {MessageTemplate, MessageInfo, MessageType, SlideContent, SlideCover, FeedContent, ThumbnailItem, KakaoLinkInfo} = require("custom-kaling");
+KakaoLinkInfo.appID = 'Your app ID';
 
 const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com');
 Header.Message = 'TestTest'; 
