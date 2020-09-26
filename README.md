@@ -18,7 +18,7 @@ npm i custom-kaling
 
 ```jsx
 const {MessageTemplate, MessageInfo, MessageType, FeedContent, Button, KakaoLinkInfo} = require('custom-kaling');
-KakaoLinkInfo.appID = 'Your app ID';
+KakaoLinkInfo.appID = 'Your app ID'; // MUST be string type
 
 const Header = new MessageInfo(MessageType.FEED, 'http://example.com', 'App Name', 'http://example.com/icon.png');
 
@@ -33,7 +33,7 @@ const Message = new MessageTemplate(Header, Content);
 
 ```jsx
 const {MessageTemplate, MessageInfo, MessageType, ListContent, ArticleListItem, KakaoLinkInfo} = require('custom-kaling');
-KakaoLinkInfo.appID = 'Your app ID';
+KakaoLinkInfo.appID = 'Your app ID'; // MUST be string type
 
 const Header = new MessageInfo(MessageType.LIST, 'http://example.com', 'App Name', 'http://example.com/icon.png');
 
@@ -51,7 +51,7 @@ const Message = new MessageTemplate(Header, Content);
 
 ```jsx
 const {MessageTemplate, MessageInfo, MessageType, SlideContent, SlideCover, FeedContent, ThumbnailItem, KakaoLinkInfo} = require("custom-kaling");
-KakaoLinkInfo.appID = 'Your app ID';
+KakaoLinkInfo.appID = 'Your app ID'; // MUST be string type
 
 const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com');
 Header.Message = 'TestTest'; 
