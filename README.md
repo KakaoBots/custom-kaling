@@ -4,6 +4,8 @@
 
 this code is **heavily based on** [kakao-message-template](https://github.com/delta-kor/kakao-message-template) 
 
+**You need to change value of appID in components/KakaoLinkInfo.js**
+
 ## Installation
 
 ```bash
