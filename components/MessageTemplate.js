@@ -5,6 +5,8 @@ const KakaoLinkInfo_1 = require("./KakaoLinkInfo");
 class MessageTemplate extends Component_1.default {
     constructor(header, content, info = new KakaoLinkInfo_1.default()) {
         super();
+        if (KakaoLinkInfo_1.default.appID)
+            header.ServiceID = `capri_${KakaoLinkInfo_1.default.appID}`;
         this.header = header;
         this.content = content;
         this.info = info;
