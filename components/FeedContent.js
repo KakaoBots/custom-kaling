@@ -23,7 +23,6 @@ class FeedContent extends Content_1.default {
         this.itemListSummary = new ItemListSummary_1.default();
         this.profile = new Profile_1.default();
         this.social = new Social_1.default();
-        this.thumbnailCount = 0;
         this.thumbnailList = new ThumbnailList_1.default();
     }
     get Title() {
@@ -58,9 +57,6 @@ class FeedContent extends Content_1.default {
     }
     get Social() {
         return this.social;
-    }
-    get ThumbnailCount() {
-        return this.thumbnailCount;
     }
     get ThumbnailList() {
         return this.thumbnailList;
@@ -98,9 +94,6 @@ class FeedContent extends Content_1.default {
     set Social(query) {
         this.social = query;
     }
-    set ThumbnailCount(query) {
-        this.thumbnailCount = query;
-    }
     set ThumbnailList(query) {
         this.thumbnailList = query;
     }
@@ -114,7 +107,7 @@ class FeedContent extends Content_1.default {
             ILS: this.itemListSummary.toJson(),
             PR: this.profile.toJson(),
             SO: this.social.toJson(),
-            THC: this.thumbnailCount,
+            THC: this.thumbnailList.length,
             TI: this.textItem.toJson(),
             THL: this.thumbnailList.toJson()
         };

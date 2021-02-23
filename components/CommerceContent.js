@@ -18,7 +18,6 @@ class CommerceContent extends Content_1.default {
         this.link = link;
         this.profile = new Profile_1.default();
         this.textItem = new TextItem_1.default(title, description);
-        this.thumbnailCount = 0;
         this.thumbnailList = new ThumbnailList_1.default();
     }
     get Title() {
@@ -38,9 +37,6 @@ class CommerceContent extends Content_1.default {
     }
     get Profile() {
         return this.profile;
-    }
-    get ThumbnailCount() {
-        return this.thumbnailCount;
     }
     get ThumbnailList() {
         return this.thumbnailList;
@@ -66,9 +62,6 @@ class CommerceContent extends Content_1.default {
     set Profile(query) {
         this.profile = query;
     }
-    set ThumbnailCount(query) {
-        this.thumbnailCount = query;
-    }
     set ThumbnailList(query) {
         this.thumbnailList = query;
     }
@@ -83,7 +76,7 @@ class CommerceContent extends Content_1.default {
             L: this.link.toJson(),
             PR: this.profile.toJson(),
             TI: this.textItem.toJson(),
-            THC: this.thumbnailCount,
+            THC: this.thumbnailList.length,
             THL: this.thumbnailList.toJson()
         };
     }

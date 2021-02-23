@@ -7,7 +7,7 @@ class KakaoLinkInfo extends Component_1.default {
     constructor() {
         super();
     }
-    toJson() {
+    static toJson() {
         return {
             ai: KakaoLinkInfo.appID,
             ti: KakaoLinkInfo.templateID

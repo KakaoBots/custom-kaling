@@ -56,13 +56,13 @@ KakaoLinkInfo.appID = 'Your app ID'; // MUST be string type
 const Header = new MessageInfo(MessageType.SLIDE, 'htts://example.com');
 Header.Message = 'TestTest'; 
 
-const Content = new SlideContent(MessageType.FEED, //this can be FEED, LIST, COMMERCE
-		new FeedContent('Alice', 'HTML'),  //all contents MUST be same class
+const Content = new SlideContent(MessageType.FEED, // this can be FEED, LIST, COMMERCE
+		new FeedContent('Alice', 'HTML'),  // all contents MUST be same class
 		new FeedContent('Bob', 'CSS'),
 		new FeedContent('Carol', 'JS')
 );
 
-//Cover is optional
+// Cover is optional
 Content.ContentHead = new SlideCover('Slide-Cover', 'JS'); 
 Content.ContentHead.Background = new ThumbnailItem('https://github.com/fluidicon.png');
 
