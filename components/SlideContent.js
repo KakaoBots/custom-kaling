@@ -10,8 +10,7 @@ class SlideContent extends Content_1.default {
         this.contentList = new ContentList_1.default();
         this.contentHead = null;
         this.contentTail = null;
-        for (let item of items)
-            this.contentList.push(item);
+        this.contentList.push(...items);
     }
     get CardType() {
         return this.cardType;

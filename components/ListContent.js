@@ -12,8 +12,7 @@ class ListContent extends Content_1.default {
         this.buttonLayout = 'Vertical';
         this.header = new Header_1.default(title);
         this.rank = false;
-        for (let item of items)
-            this.articleList.push(item);
+        this.articleList.push(...items);
     }
     get ArticleList() {
         return this.articleList;

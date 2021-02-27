@@ -5,13 +5,13 @@ const Link_1 = require("./Link");
 const ThumbnailItem_1 = require("./ThumbnailItem");
 const TitleDescription_1 = require("./TitleDescription");
 class Header extends Component_1.default {
-    constructor(name = '', icon = '', link = new Link_1.default(''), width = 0, height = 0) {
+    constructor(name = '', icon = '', link = new Link_1.default('')) {
         super();
         if (typeof link === 'string')
             link = new Link_1.default(link);
         this.background = new ThumbnailItem_1.default();
         this.link = link;
-        this.thumbnail = new ThumbnailItem_1.default(icon, width, height);
+        this.icon = icon;
         this.title = new TitleDescription_1.default(name);
     }
     get Background() {
@@ -20,8 +20,8 @@ class Header extends Component_1.default {
     get Link() {
         return this.link;
     }
-    get Image() {
-        return this.thumbnail;
+    get Icon() {
+        return this.icon;
     }
     get Text() {
         return this.title;
@@ -32,8 +32,8 @@ class Header extends Component_1.default {
     set Link(query) {
         this.link = query;
     }
-    set Image(query) {
-        this.thumbnail = query;
+    set Icon(query) {
+        this.icon = query;
     }
     set Text(query) {
         this.title = query;
@@ -42,7 +42,7 @@ class Header extends Component_1.default {
         return {
             BG: this.background.toJson(),
             L: this.link.toJson(),
-            TH: this.thumbnail.toJson(),
+            ICO: this.icon,
             TD: this.title.toJson()
         };
     }
